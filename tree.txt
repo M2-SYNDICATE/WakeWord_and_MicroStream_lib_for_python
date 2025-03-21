@@ -1,0 +1,239 @@
+wakeword v0.1.0 (/home/user/WakeWord)
+├── cpal v0.15.3
+│   ├── alsa v0.9.1
+│   │   ├── alsa-sys v0.3.1
+│   │   │   └── libc v0.2.171
+│   │   │   [build-dependencies]
+│   │   │   └── pkg-config v0.3.32
+│   │   ├── bitflags v2.9.0
+│   │   ├── cfg-if v1.0.0
+│   │   └── libc v0.2.171
+│   ├── dasp_sample v0.11.0
+│   ├── jack v0.11.4
+│   │   ├── bitflags v1.3.2
+│   │   ├── jack-sys v0.5.1
+│   │   │   ├── lazy_static v1.5.0
+│   │   │   ├── libc v0.2.171
+│   │   │   ├── libloading v0.7.4
+│   │   │   │   └── cfg-if v1.0.0
+│   │   │   └── log v0.4.26
+│   │   │   [build-dependencies]
+│   │   │   ├── bitflags v1.3.2
+│   │   │   └── pkg-config v0.3.32
+│   │   ├── lazy_static v1.5.0
+│   │   ├── libc v0.2.171
+│   │   └── log v0.4.26
+│   └── libc v0.2.171
+├── half v2.5.0
+│   ├── cfg-if v1.0.0
+│   ├── num-traits v0.2.19
+│   │   └── libm v0.2.11
+│   │   [build-dependencies]
+│   │   └── autocfg v1.4.0
+│   ├── rand v0.9.0
+│   │   ├── rand_chacha v0.9.0
+│   │   │   ├── ppv-lite86 v0.2.21
+│   │   │   │   └── zerocopy v0.8.23
+│   │   │   └── rand_core v0.9.3
+│   │   │       └── getrandom v0.3.2
+│   │   │           ├── cfg-if v1.0.0
+│   │   │           └── libc v0.2.171
+│   │   ├── rand_core v0.9.3 (*)
+│   │   └── zerocopy v0.8.23
+│   └── rand_distr v0.5.1
+│       ├── num-traits v0.2.19 (*)
+│       └── rand v0.9.0 (*)
+├── pyo3 v0.24.0
+│   ├── cfg-if v1.0.0
+│   ├── indoc v2.0.6 (proc-macro)
+│   ├── libc v0.2.171
+│   ├── memoffset v0.9.1
+│   │   [build-dependencies]
+│   │   └── autocfg v1.4.0
+│   ├── once_cell v1.21.1
+│   ├── pyo3-ffi v0.24.0
+│   │   └── libc v0.2.171
+│   │   [build-dependencies]
+│   │   └── pyo3-build-config v0.24.0
+│   │       ├── once_cell v1.21.1
+│   │       └── target-lexicon v0.13.2
+│   │       [build-dependencies]
+│   │       └── target-lexicon v0.13.2
+│   ├── pyo3-macros v0.24.0 (proc-macro)
+│   │   ├── proc-macro2 v1.0.94
+│   │   │   └── unicode-ident v1.0.18
+│   │   ├── pyo3-macros-backend v0.24.0
+│   │   │   ├── heck v0.5.0
+│   │   │   ├── proc-macro2 v1.0.94 (*)
+│   │   │   ├── pyo3-build-config v0.24.0 (*)
+│   │   │   ├── quote v1.0.40
+│   │   │   │   └── proc-macro2 v1.0.94 (*)
+│   │   │   └── syn v2.0.100
+│   │   │       ├── proc-macro2 v1.0.94 (*)
+│   │   │       ├── quote v1.0.40 (*)
+│   │   │       └── unicode-ident v1.0.18
+│   │   │   [build-dependencies]
+│   │   │   └── pyo3-build-config v0.24.0 (*)
+│   │   ├── quote v1.0.40 (*)
+│   │   └── syn v2.0.100 (*)
+│   └── unindent v0.2.4
+│   [build-dependencies]
+│   └── pyo3-build-config v0.24.0 (*)
+└── rustpotter v3.0.2
+    ├── candle-core v0.2.2
+    │   ├── byteorder v1.5.0
+    │   ├── candle-gemm v0.16.0
+    │   │   ├── candle-gemm-c32 v0.16.0
+    │   │   │   ├── candle-gemm-common v0.16.0
+    │   │   │   │   ├── dyn-stack v0.9.1
+    │   │   │   │   │   ├── bytemuck v1.22.0
+    │   │   │   │   │   └── reborrow v0.5.5
+    │   │   │   │   ├── lazy_static v1.5.0
+    │   │   │   │   ├── num-complex v0.4.6
+    │   │   │   │   │   └── num-traits v0.2.19 (*)
+    │   │   │   │   ├── num-traits v0.2.19 (*)
+    │   │   │   │   ├── paste v1.0.15 (proc-macro)
+    │   │   │   │   ├── raw-cpuid v10.7.0
+    │   │   │   │   │   └── bitflags v1.3.2
+    │   │   │   │   ├── rayon v1.10.0
+    │   │   │   │   │   ├── either v1.15.0
+    │   │   │   │   │   └── rayon-core v1.12.1
+    │   │   │   │   │       ├── crossbeam-deque v0.8.6
+    │   │   │   │   │       │   ├── crossbeam-epoch v0.9.18
+    │   │   │   │   │       │   │   └── crossbeam-utils v0.8.21
+    │   │   │   │   │       │   └── crossbeam-utils v0.8.21
+    │   │   │   │   │       └── crossbeam-utils v0.8.21
+    │   │   │   │   └── seq-macro v0.3.6 (proc-macro)
+    │   │   │   ├── dyn-stack v0.9.1 (*)
+    │   │   │   ├── lazy_static v1.5.0
+    │   │   │   ├── num-complex v0.4.6 (*)
+    │   │   │   ├── num-traits v0.2.19 (*)
+    │   │   │   ├── paste v1.0.15 (proc-macro)
+    │   │   │   ├── raw-cpuid v10.7.0 (*)
+    │   │   │   ├── rayon v1.10.0 (*)
+    │   │   │   └── seq-macro v0.3.6 (proc-macro)
+    │   │   ├── candle-gemm-c64 v0.16.0
+    │   │   │   ├── candle-gemm-common v0.16.0 (*)
+    │   │   │   ├── dyn-stack v0.9.1 (*)
+    │   │   │   ├── lazy_static v1.5.0
+    │   │   │   ├── num-complex v0.4.6 (*)
+    │   │   │   ├── num-traits v0.2.19 (*)
+    │   │   │   ├── paste v1.0.15 (proc-macro)
+    │   │   │   ├── raw-cpuid v10.7.0 (*)
+    │   │   │   ├── rayon v1.10.0 (*)
+    │   │   │   └── seq-macro v0.3.6 (proc-macro)
+    │   │   ├── candle-gemm-common v0.16.0 (*)
+    │   │   ├── candle-gemm-f16 v0.16.0
+    │   │   │   ├── candle-gemm-common v0.16.0 (*)
+    │   │   │   ├── candle-gemm-f32 v0.16.0
+    │   │   │   │   ├── candle-gemm-common v0.16.0 (*)
+    │   │   │   │   ├── dyn-stack v0.9.1 (*)
+    │   │   │   │   ├── lazy_static v1.5.0
+    │   │   │   │   ├── num-complex v0.4.6 (*)
+    │   │   │   │   ├── num-traits v0.2.19 (*)
+    │   │   │   │   ├── paste v1.0.15 (proc-macro)
+    │   │   │   │   ├── raw-cpuid v10.7.0 (*)
+    │   │   │   │   ├── rayon v1.10.0 (*)
+    │   │   │   │   └── seq-macro v0.3.6 (proc-macro)
+    │   │   │   ├── dyn-stack v0.9.1 (*)
+    │   │   │   ├── half v2.5.0 (*)
+    │   │   │   ├── lazy_static v1.5.0
+    │   │   │   ├── num-complex v0.4.6 (*)
+    │   │   │   ├── num-traits v0.2.19 (*)
+    │   │   │   ├── paste v1.0.15 (proc-macro)
+    │   │   │   ├── raw-cpuid v10.7.0 (*)
+    │   │   │   ├── rayon v1.10.0 (*)
+    │   │   │   └── seq-macro v0.3.6 (proc-macro)
+    │   │   ├── candle-gemm-f32 v0.16.0 (*)
+    │   │   ├── candle-gemm-f64 v0.16.0
+    │   │   │   ├── candle-gemm-common v0.16.0 (*)
+    │   │   │   ├── dyn-stack v0.9.1 (*)
+    │   │   │   ├── lazy_static v1.5.0
+    │   │   │   ├── num-complex v0.4.6 (*)
+    │   │   │   ├── num-traits v0.2.19 (*)
+    │   │   │   ├── paste v1.0.15 (proc-macro)
+    │   │   │   ├── raw-cpuid v10.7.0 (*)
+    │   │   │   ├── rayon v1.10.0 (*)
+    │   │   │   └── seq-macro v0.3.6 (proc-macro)
+    │   │   ├── dyn-stack v0.9.1 (*)
+    │   │   ├── lazy_static v1.5.0
+    │   │   ├── num-complex v0.4.6 (*)
+    │   │   ├── num-traits v0.2.19 (*)
+    │   │   ├── paste v1.0.15 (proc-macro)
+    │   │   ├── raw-cpuid v10.7.0 (*)
+    │   │   ├── rayon v1.10.0 (*)
+    │   │   └── seq-macro v0.3.6 (proc-macro)
+    │   ├── half v2.5.0 (*)
+    │   ├── memmap2 v0.7.1
+    │   │   └── libc v0.2.171
+    │   ├── num-traits v0.2.19 (*)
+    │   ├── num_cpus v1.16.0
+    │   │   └── libc v0.2.171
+    │   ├── rand v0.8.5
+    │   │   ├── libc v0.2.171
+    │   │   ├── rand_chacha v0.3.1
+    │   │   │   ├── ppv-lite86 v0.2.21 (*)
+    │   │   │   └── rand_core v0.6.4
+    │   │   │       └── getrandom v0.2.15
+    │   │   │           ├── cfg-if v1.0.0
+    │   │   │           └── libc v0.2.171
+    │   │   └── rand_core v0.6.4 (*)
+    │   ├── rand_distr v0.4.3
+    │   │   ├── num-traits v0.2.19 (*)
+    │   │   └── rand v0.8.5 (*)
+    │   ├── rayon v1.10.0 (*)
+    │   ├── safetensors v0.3.3
+    │   │   ├── serde v1.0.219
+    │   │   │   └── serde_derive v1.0.219 (proc-macro)
+    │   │   │       ├── proc-macro2 v1.0.94 (*)
+    │   │   │       ├── quote v1.0.40 (*)
+    │   │   │       └── syn v2.0.100 (*)
+    │   │   └── serde_json v1.0.140
+    │   │       ├── itoa v1.0.15
+    │   │       ├── memchr v2.7.4
+    │   │       ├── ryu v1.0.20
+    │   │       └── serde v1.0.219 (*)
+    │   ├── thiserror v1.0.69
+    │   │   └── thiserror-impl v1.0.69 (proc-macro)
+    │   │       ├── proc-macro2 v1.0.94 (*)
+    │   │       ├── quote v1.0.40 (*)
+    │   │       └── syn v2.0.100 (*)
+    │   └── zip v0.6.6
+    │       ├── byteorder v1.5.0
+    │       └── crc32fast v1.4.2
+    │           └── cfg-if v1.0.0
+    ├── candle-nn v0.2.2
+    │   ├── candle-core v0.2.2 (*)
+    │   ├── half v2.5.0 (*)
+    │   ├── num-traits v0.2.19 (*)
+    │   ├── rayon v1.10.0 (*)
+    │   ├── safetensors v0.3.3 (*)
+    │   ├── serde v1.0.219 (*)
+    │   └── thiserror v1.0.69 (*)
+    ├── ciborium v0.2.2
+    │   ├── ciborium-io v0.2.2
+    │   ├── ciborium-ll v0.2.2
+    │   │   ├── ciborium-io v0.2.2
+    │   │   └── half v2.5.0 (*)
+    │   └── serde v1.0.219 (*)
+    ├── hound v3.5.1
+    ├── rubato v0.14.1
+    │   ├── num-complex v0.4.6 (*)
+    │   ├── num-integer v0.1.46
+    │   │   └── num-traits v0.2.19 (*)
+    │   ├── num-traits v0.2.19 (*)
+    │   └── realfft v3.4.0
+    │       └── rustfft v6.2.0
+    │           ├── num-complex v0.4.6 (*)
+    │           ├── num-integer v0.1.46 (*)
+    │           ├── num-traits v0.2.19 (*)
+    │           ├── primal-check v0.3.4
+    │           │   └── num-integer v0.1.46 (*)
+    │           ├── strength_reduce v0.2.4
+    │           └── transpose v0.2.3
+    │               ├── num-integer v0.1.46 (*)
+    │               └── strength_reduce v0.2.4
+    │           [build-dependencies]
+    │           └── version_check v0.9.5
+    ├── rustfft v6.2.0 (*)
+    └── serde v1.0.219 (*)

@@ -1,0 +1,28 @@
+[package]
+name = "wakeword"
+version = "0.1.0"
+edition = "2024"
+#
+[dependencies]
+#candle-core = "0.8.4"
+#pyo3 = "0.24.0"
+rustpotter = { version = "3.0.2", path = "../rustpotter" }
+# # rustpotter = "3.0.2"
+# # rand = "0.8.5"
+# candle-core = { version = "0.2.2", default-features = false }
+cpal = { version = "0.15.3", features = ["jack"] }
+pyo3 = { version = "0.18", features = ["extension-module"] }
+num = "0.4.3"
+# #hound = "3.4.5"
+# half = { version = "2.5.0", features = ["num-traits", "use-intrinsics", "rand_distr"] }  # Добавляем фичу rand
+# rand = "0.9.0"
+# rand_distr = "0.5.1"
+#
+# #candle-core = "0.2.2"
+# candle-nn = "0.2.2"
+# ciborium = "0.2.1"
+# hound = "3.4.5"
+# rubato = { version = "0.14.1", default-features = false }
+# rustfft = { version = "6.1.0", default-features = false }
+# serde =  { version = "1.0.188", features = ["derive"], default-features = false }
+# rustpotter = "3.0.2"
